@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    printf("Enter number n :");
-    int n = 0;
+    printf("Enter numner : ");
+    int n;
     scanf("%d", &n);
     if (n < 0) {
         printf("please enter a positive integer");
@@ -10,8 +10,8 @@ int main() {
     }
     int total = 0;
     for (int i = 1; i <= n; ++i) {
-        total += i;
+        total += (i * i); 
     }
-    printf("Total number n %d: is = %d", n, total);
+    printf("Total 1^2 + 2^2 is = %d", total);
     return 0;
 }
