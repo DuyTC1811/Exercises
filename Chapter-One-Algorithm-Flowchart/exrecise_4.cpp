@@ -6,7 +6,7 @@ int main() {
         printf("Enter number : ");
         scanf("%d", &n);
         if (n < 1) {
-            printf("pase enter positive > 1\n");
+            printf("pease enter a positive > 1\n");
         }
 
     } while (n < 1);
@@ -14,6 +14,6 @@ int main() {
     for (int i = 1; i <= n; ++i) {
         sum += (1.0 / (i * 2));
     }
-    printf("Sum 1/2 + 1/4 + 1/6 = is %.2f", sum);
+    printf("Sum 1/2 + 1/4 + 1/6.... = is %.2f", sum);
     return 0;
 }
