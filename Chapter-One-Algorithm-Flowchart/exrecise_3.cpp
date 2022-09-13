@@ -6,7 +6,7 @@ int main() {
         printf("Enter number : "); 
         scanf("%d", &n);
         if (n < 1) {
-            printf("pease enter a positive >= 1\n");
+            printf("please enter a positive >= 1\n");
         }
     } while (n < 1);
 
