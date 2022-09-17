@@ -11,7 +11,7 @@ int main() {
 
     float sum = 0, T = 1;
     for (int i = 1; i <= n; ++i) {
-        T = pow(x, (i * 2));
+        T = T + pow(x, (i * 2));
         sum = sum + T;
     }
 
