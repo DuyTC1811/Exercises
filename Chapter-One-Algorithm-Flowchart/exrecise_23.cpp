@@ -11,12 +11,12 @@ int main() {
         }
     } while (n < 1);
 
-    int amount = 0;
+    int count = 0;
     for (int i = 1; i <= n; ++i) {
-       if (i % 2 == 0) {
-            amount ++;
+       if (n % i == 0) {
+            count ++;
         } 
     }
-    cout << "Total amount integer = " << amount << endl;
+    cout << "Total amount integer = " << count << endl;
     return 0;
 }
