@@ -14,6 +14,7 @@ int main() {
     int count = 0;
     for (int i = 1; i <= n; ++i) {
        if (n % i == 0) {
+            printf("%3d ", i);
             count ++;
         } 
     }
